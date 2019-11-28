@@ -1,0 +1,87 @@
+#mainNav>div>button>i {
+    color: black;
+}
+
+#mainNav>div {
+    padding: 3px;
+}
+
+#mainNav>div>button {
+    width: 50px;
+}
+
+#page-top>header>div>div>div.intro-lead-in {
+    font-size: unset;
+}
+
+#page-top>header>div>div>div:nth-child(2) {
+    font-size: -webkit-xxx-large;
+}
+
+#page-top>header>div>div>div.intro-heading.text-uppercase>span {
+    color: greenyellow;
+}
+
+#contact>div>div.row.text-center>div:nth-child(1)>img {
+    width: 40%;
+    height: 50%;
+}
+
+#contact>div>div.row.text-center>div:nth-child(2)>p {
+    text-align: left;
+}
+
+#services>div>div.row.text-center>div:nth-child(1)>p {
+    text-align: left;
+}
+
+#services>div>div.row.text-center>div:nth-child(2)>p {
+    text-align: left;
+}
+
+#services>div>div.row.text-center>div:nth-child(3)>p {
+    text-align: left;
+}
+
+#about>div>div:nth-child(2)>div>ul>li:nth-child(3)>div {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.common {
+    text-align: left;
+}
+
+#portfolio>div>div:nth-child(1)>div>h2 {
+    padding-bottom: 30px;
+}
+
+#portfolio>div>div:nth-child(2)>div:nth-child(3)>a>img {
+    height: 265px;
+}
+
+#portfolio>div>div:nth-child(2)>div:nth-child(5)>a>img {
+    height: 235px;
+}
+
+#team>div.container>div:nth-child(2)>div.col-sm-4 {
+    padding-left: 100px;
+}
+
+#team>div.container>div:nth-child(1)>div {
+    padding-bottom: 30px;
+}
+
+#page-top>header>div>div {
+    padding-top: 160px;
+}
+
+#portfolioModal6>div>div>div.container>div>div>div>img {
+    height: 800px;
+    width: 600px;
+}
+
+#portfolio>div>div:nth-child(2)>div:nth-child(6)>a>img {
+    height: 240px;
+    width: 360px;
+}
