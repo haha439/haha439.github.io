@@ -1,0 +1,43 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.center {
+    text-align: center;
+}
+
+.block {
+    border-style: none;
+    border-width: 1px;
+    padding: 20px;
+    border-color: rgb(107, 223, 107);
+}
+
+.title {
+    text-align: center;
+    color: rgb(57, 60, 212);
+    padding: 5px;
+    font-size: 50px;
+}
+
+.text {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.blank {
+    padding-left: 160px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-color: rgb(107, 223, 107);
+}
+
+.container {
+    padding-top: 55px;
+}
