@@ -28,5 +28,5 @@ more about me按鈕可以讓頁面滑動到 about me 頁面
 ### footer
 有兩個按鈕分別可以連接到我的FB和IG
 #### 使用模板
-主要模板連結 : https://startbootstrap.com/themes/agency/
-具備能力的條狀圖模板連結 : https://startbootstrap.com/themes/sb-admin-2/
+-主要模板連結 : https://startbootstrap.com/themes/agency/
+-具備能力的條狀圖模板連結 : https://startbootstrap.com/themes/sb-admin-2/
