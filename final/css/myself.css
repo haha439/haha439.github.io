@@ -1,0 +1,29 @@
+.floatbg {
+    background-color: black;
+    color: white;
+}
+
+.cross {
+    color: white;
+}
+
+.fatetitle {
+    font-size: 50px;
+}
+
+.resulttitle {
+    font-size: 30px;
+}
+
+.fatecontent {
+    font-size: 20px;
+}
+
+.confirmbtn {
+    margin-right: 20px;
+}
+
+.txt {
+    display: inline;
+    font-size: 40px;
+}

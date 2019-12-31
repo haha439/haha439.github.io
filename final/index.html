@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>星座血型負能量占卜</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/cover.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/myself.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body background="./img/star2.jpg">
+
+    <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+
+            <div class="cover-container">
+
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <h3 class="masthead-brand">星座血型負能量占卜</h3>
+                    </div>
+                </div>
+
+                <div class="inner cover">
+                    <h1 class="cover-heading ">運勢占卜</h1>
+                    <h2 class="lead">輸入星座和血型，馬上可以占卜你今天的運勢!</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">星座</label>
+                            <input type="text" class="form-control" id="star" aria-describedby="emailHelp" placeholder="ex. 射手">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">血型</label>
+                            <input type="text" class="form-control" id="blood" placeholder="ex. B">
+                        </div>
+                    </form>
+
+                    <div class="lead">
+                        <button type="button" class="btn btn-primary confirmbtn" id="confirm">確認資料</button>
+                        <div id="ooo" class="modal inmodal fade floatbg" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content floatbg">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" id="quit1">
+                                    <span>&times;</span>
+                                  </button>
+                                        <div class="modal-title resulttitle">
+                                            身為
+                                            <div class="modal-title resulttitle txt" id="mystar"></div>座
+                                            <div class="modal-title resulttitle txt" id="myblood"></div> 型 你的運勢
+                                        </div>
+                                    </div>
+                                    <div id="result">
+                                        <div class="modal-body fatetitle" id="resulttitle">
+
+                                        </div>
+                                        <div class="modal-body fatecontent" id="resulttext">
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button id="quit" class="btn btn-primary" data-dismiss="modal">離開</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 使用按鈕開啟  data-target-->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ooo" id="start" disabled>
+                        <a href="#" >開始占卜</a></button>
+                    </div>
+
+
+
+                </div>
+
+                <div class="mastfoot">
+                    <div class="inner ">
+                        <p>生工四 b05602038 王捷弘</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./js/ie-emulation-modes-warning.js"></script>
+    <script src="./js/myself.js"></script>
+    <script src="./js/math.js"></script>
+</body>
+
+</html>
